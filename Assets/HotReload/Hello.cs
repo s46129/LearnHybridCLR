@@ -5,6 +5,7 @@ public class Hello
 {
     public static void Run()
     {
-        Debug.Log("Hello, HybridCLR");
+        GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Shpere);
+        cube.transform.position = new Vector3(0, 0.5f, 0);
     }
 }

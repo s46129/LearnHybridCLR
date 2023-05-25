@@ -8,6 +8,9 @@
     <type fullname="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule">
-    <type fullname="UnityEngine.Debug" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.PrimitiveType" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Vector3" preserve="all" />
   </assembly>
 </linker>
